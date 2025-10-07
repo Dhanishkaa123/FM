@@ -64,14 +64,21 @@ MODEL GRAPH:
 <img width="512" height="365" alt="image" src="https://github.com/user-attachments/assets/acd787bd-5281-4f1b-802f-1aa39fac9189" />
 
 
-Program
+Program 
+
+<img width="1306" height="883" alt="image" src="https://github.com/user-attachments/assets/37ef913e-5eb9-4fbf-b2cb-2ab2622fb4c9" />
+
 
 
 Output Waveform
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/aab92011-d88d-43de-ad84-a9426eb10de2" />
+
 
 
 
 Tabulation
+
+<img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/a368b147-2ba1-419c-a616-edb84816d77f" />
 
 
 
