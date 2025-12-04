@@ -1,4 +1,4 @@
-# FM
+
 
 EXP NO: 4	GENERATION AND DETECTION OF FM
 
@@ -66,24 +66,45 @@ MODEL GRAPH:
 
 Program
 
+Am=2.0;
+Ac=4.0;
+fm=193;
+fc=1930;
+fs=193000;
+b=3.6;
+t=0:1/fs:2/fm;
+m=Am*cos(2*3.14*fm*t);
+subplot(3,1,1);
+plot(t,m);
+c=Ac*cos(2*3.14*fc*t);
+subplot(3,1,2);
+plot(t,c);
+s=Ac.*cos(2*3.14*fc*t + b*sin(2*3.14*fm*t));
+subplot(3,1,3);
+plot(t,s);
+
 
 Output Waveform
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/c34ed4d3-52cb-4e82-974a-63ae05d75f36" />
 
 
 
 Tabulation
 
 
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/2cddce0d-03be-4871-ab82-3c6202b7aa18" />
+
+
+
 
 Calculation
 
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/cd626817-8606-4ef8-b65f-28d3f0fc8d4c" />
 
 
-Frequency Deviation Practical = 
 
-Modulation Index Practical	= 
 
-Modulation Index Theoretical	=
 
 
 
